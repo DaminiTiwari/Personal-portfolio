@@ -1,0 +1,48 @@
+.footer {
+    background-color: rgba(255, 255, 255, 0);
+    
+    color: rgb(48, 47, 47);
+    padding: 1vh 1vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    bottom: 0;
+    flex-direction: column;
+
+}
+
+
+.icons {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons> a {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons a svg {
+
+    margin: 1vh 2vw ;
+    color: black;
+
+
+}
+
+svg {
+    cursor: pointer;
+}
+
+.footer_text_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: wrap;
+    margin-top: .4vh;
+    font-weight: 600;
+}

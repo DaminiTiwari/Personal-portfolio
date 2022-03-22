@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap'); */
+
+
+
+.App {
+    text-align: center;
+    /* background-color: rgb(219, 213, 213); */
+    /* background-image: linear-gradient(to right, rgb(63, 63, 63),rgb(73, 72, 70),rgb(121, 121, 116),rgb(125, 131, 125),rgb(121, 121, 116),rgb(73, 72, 70),rgb(63, 63, 63)),url("../bg.jpg"); */
+    font-family: 'Cabin Sketch', cursive;
+
+
+}
+
+
+.app__body {
+    /* background-image: url("../bg.jpg"); */
+    /* background-image: linear-gradient(to right, rgb(63, 63, 63),rgb(73, 72, 70),rgb(121, 121, 116),rgb(125, 131, 125),rgb(121, 121, 116),rgb(73, 72, 70),rgb(63, 63, 63)),url("../bg.jpg"); */
+
+   /* background-color: #fff; */
+    background-blend-mode: multiply;
+    /* background-color: #fff; */
+    height: 100%;
+    border-radius: 2vh;
+    /* margin: 5vh 20vh; */
+    padding: 2vh 2vh;
+    color: rgb(238, 238, 240);
+    min-height: 70vh;
+
+}
+
+
+button {
+
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+       font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 40px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 8px 20px 8px;
+    /* margin: .8vh .8vw; */
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    /* width: 1%; */
+}
+
+button:hover,
+button:focus {
+    /* opacity: 1; */
+    /* box-shadow: 2px 3px rgb(116, 106, 106); */
+    /* border: 1.5px solid #d5ddd6; */
+    background-color: rgb(46, 6, 189);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .app__body {
+        margin: 5vh 5vh;
+        padding: 5vh 1vh 1vh 1vh;
+        color: rgb(238, 238, 240);
+        min-height: 70vh;
+    
+    }
+}

@@ -1,0 +1,121 @@
+.contact_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+
+.contact_box_2 {
+    border-radius: 15px;
+    width: 50vw;
+    height: 62vh;
+    margin: 2vh 2vh;
+
+}
+
+.contact_box_2 div {
+    width: 90%;
+    /* height: 100px; */
+    padding: 3vh 1vw 1vh 2vw;
+    margin: 1vh 1vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_box_2>form>div>input {
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 1.5vh 1vw;
+    margin: 1vh 1vw;
+    /* border-radius: 15px; */
+    width: 80%;
+    border: 0;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border-bottom: .1vh solid gray; 
+
+}
+
+.contact_box_2>form>div>textarea {
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 1.5vh 1vw;
+    margin: 1vh 1vw;
+    /* border-radius: 15px; */
+    width: 80%;
+    height: 15vh;
+    max-height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    outline: 0;
+    resize: none;
+    border-bottom: .1vh solid gray; 
+
+}
+
+
+
+/* @media only screen and (max-width: 250px) {
+    .contact_box_1 {
+        width: 10vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+} */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .contact_box_2 {
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+        margin: 0vh 0vh;
+        padding: 0;
+    }
+    
+    .contact_box_2 div {
+        width: 100%;
+        /* background-colsor: aqua; */
+        /* height: 100px; */
+        padding: 2vh 1vw;
+        margin: 1vh 0vw;
+      
+    }
+       }
+       
+           
+       /* iPads (portrait and landscape) ----------- */
+       @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .contact_box_2 {
+            border-radius: 0px;
+            width: 100%;
+            height: 100%;
+            margin: 0vh 0vh;
+            padding: 0;
+        }
+        
+        .contact_box_2 div {
+            width: 100%;
+            /* background-colsor: aqua; */
+            /* height: 100px; */
+            padding: 2vh 1vw;
+            margin: 1vh 0vw;
+          
+        }
+         
+         
+              }
+      

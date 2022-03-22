@@ -1,0 +1,171 @@
+
+
+.project__box__projects__single{
+
+    background-color: #f3f2ee;
+    /* border-radius: 15px; */
+    width: 90%;
+    height: 90%;
+    margin: 2vh;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: black;
+}
+
+.project__box__projects__details__single{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+
+table, tr, th, td {
+    /* border:1px solid; */
+    padding: 1vh 1.5vh;
+}
+
+td, th {
+    height: 2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  th {
+     padding:  5px;
+  }
+
+td{
+    /* color: aqua; */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+  padding-left: 5vh;
+}
+
+.project__box__projects__details__single a{
+text-decoration: none !important;
+color: rgb(8, 7, 78);
+cursor: pointer;
+}
+.project__box__projects__details__single a:hover{
+    color: rgb(13, 11, 138);
+    }
+  
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .project__box__projects__single{
+    border:1px solid black;
+
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .project__box__projects__details__single{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+table{
+    width: 100%;
+    /* background-color: blueviolet; */
+    font-size:small;
+    padding: 0;
+    margin: 0;
+    /* word-wrap: break-word; */
+    border-spacing: 0px;
+    table-layout: fixed;
+    /* margin-left: auto;
+    margin-right: auto; */
+    }
+
+    table, tr, th, td {
+        border:0px solid;
+        padding: 0;
+    }
+    
+    td, th {
+        height: 2rem;
+        border: .2vh solid #ccc;
+        text-align: center;
+      }
+    
+      th {
+         padding:  0px;
+         margin: 0;
+         padding-right: 0;
+         margin-right: 0;
+         font-size: x-small;
+         width: 20%;
+      }
+    
+    td{
+        /* color: aqua; */
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+      padding-left: .2vh;
+      word-wrap:  break-word;
+
+
+    }
+}
+
+
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .project__box__projects__single{
+            width: 90%;
+            height: 90%;
+            margin: 1.5vh;
+        }
+        
+        .project__box__projects__details__single{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+    
+    table{
+        /* width: 50%; */
+        /* background-color: blueviolet; */
+        font-size:medium;
+        padding: 0;
+        margin: 0;
+    }
+    
+        table, tr, th, td {
+            border:0px solid;
+            padding: 0;
+        }
+        
+        td, th {
+            height: 2rem;
+            border: .2vh solid #ccc;
+            text-align: center;
+          }
+        
+          th {
+             padding:  1px;
+          }
+        
+        td{
+            /* color: aqua; */
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+          padding-left: 1;
+        }
+      
+   
+    }
+
+
+
+ 

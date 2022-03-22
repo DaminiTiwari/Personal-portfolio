@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.home{
+    /* background-color: white; */
+    /* border: .1vh solid gray; */
+    text-align: left;
+    color: black;
+    padding: 1vh 1vh;
+    /* margin:  1vh 1vh; */
+    margin: 5vh 20vh;
+
+    font-family: 'Playfair Display', serif;
+}
+
+.home__container{
+    /* background-color: rgb(0, 255, 21); */
+    padding: 1vh ;
+    margin: 0vh;
+    border-bottom: .1vh solid gray; 
+
+}
+
+/* .home__container__details{
+    background-color: bisque;
+} */
+
+#pre__name{
+    line-height:10vh ;
+    font-size:90px;
+    padding: 0;
+    margin: 0;
+}
+#name{
+   color: blue;
+}
+
+
+
+#description{
+    padding: 3vh 0;
+    font-size: larger;
+}
+
+.home__container__buttons{
+    padding: 3vh 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ .home{
+      /* background-color: white; */
+      padding: 0vh 1vh;
+      margin: 0vh 1vh;
+}
+
+#pre__name{
+    font-size: medium;
+    margin-bottom: 0;
+    line-height: 45px !important ;
+
+}
+
+#name{
+    /* line-height: 1px !important ; */
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+
+
+#description{
+    padding: .2vh 0;
+    font-size: large;
+}
+    }
+    
+        
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .home{
+            /* background-color: white; */
+            padding: 1vh 10vh;
+            margin: 5vh 1vh;
+            width: 100% !important;
+      }
+      
+      #pre__name{
+          font-size: xx-large;
+          margin-bottom: 0;
+          margin-top: 0;
+    line-height: 60px !important ;
+
+      }
+      
+      #name{
+          /* line-height: 10px ; */
+          font-size: 65px;
+          /* margin-bottom: 0; */
+      }
+      
+      
+      
+      #description{
+          padding: .2vh 0;
+          font-size: large;
+      }
+    }
+    
+    
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
+    
+

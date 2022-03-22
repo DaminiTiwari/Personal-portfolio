@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+.project__box{
+    /* background-color: #fff; */
+    margin: 1vh;
+    padding: 2vh;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.project__box__grid{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.project__box__projects{
+    /* background-color: blue; */
+    width: 80%;
+    padding: 2vh;
+    margin: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.158); */
+    border: .1vh solid gray; 
+ 
+}
+
+.project__box__projects__img{
+    height: 45vh;
+    width: 70%;
+  }
+
+  .project__box__projects__img >img{
+    height: 45vh;
+    width: 60%;
+    /* border: 1vh solid blue;  */
+
+  }
+
+  .project__box__projects__details{
+      /* background-color: blue; */
+      padding: 0 1vh;
+      color: rgb(29, 29, 136);
+      cursor: pointer;
+    border-bottom: .1vh solid gray; 
+
+  }
+
+  
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .project__box{
+        /* background-color: #fff; */
+        margin: 0vh;
+        padding: 2vh 0;
+        font-family: 'Playfair Display', serif;
+    
+    }
+    .project__box__projects{
+        /* background-color: blue; */
+        width: 100%;
+        padding: 0vh;
+        margin: 1vh 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rgba(0, 0, 0, 0.158); */
+        border: .1vh solid gray; 
+     
+    }
+
+    .project__box__projects__img{
+        height: 45vh;
+        width: 100%;
+      }
+    
+      .project__box__projects__img >img{
+        height: 45vh;
+        width: 100%;
+        /* border: 1vh solid blue;  */
+    
+      }
+
+       }
+       
+           
+       /* iPads (portrait and landscape) ----------- */
+       @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+        .project__box__projects__img{
+            height: 45vh;
+            width: 100%;
+          }
+        
+          .project__box__projects__img >img{
+            height: 45vh;
+            width: 100%;
+            /* border: 1vh solid blue;  */
+        
+          }
+
+       }
+       
+       
+   
+   
+   
